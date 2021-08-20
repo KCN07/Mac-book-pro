@@ -35,6 +35,7 @@ function promo(){
         const waiver = parseFloat((prvFnlTtl * 20)/100);
          
         document.getElementById('finalTotal').innerText = prvFnlTtl - waiver;
+        
     }
     
 }
