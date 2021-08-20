@@ -30,7 +30,7 @@ const delPrc = getIdText('del');
 function promo(){
     const promoValue = document.getElementById('promo').value;
     if(promoValue.toLowerCase() == 'stevekaku'){
-        const prvFnlTtl = parseInt(document.getElementById('finalTotal').innerText) ;
+        const prvFnlTtl = parseInt(document.getElementById('total-cost').innerText) ;
         
         const waiver = parseFloat((prvFnlTtl * 20)/100);
          
