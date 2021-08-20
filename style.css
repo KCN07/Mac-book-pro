@@ -1,0 +1,19 @@
+h5{
+font-weight: bolder;
+}
+
+
+.btns:hover{
+    background-color: #555555;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .btns{
+        margin-bottom: 5px;
+    }
+
+    #apply{
+        margin-top: 5px;;
+    }
+}
